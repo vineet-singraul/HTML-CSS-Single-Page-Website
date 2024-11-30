@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #008211;
+    overflow-x: hidden;
+}
+
+
+nav {
+    width: 100vw;
+    height: 80px;
+    background: linear-gradient(180deg, rgb(100, 201, 0), rgb(51, 66, 1));
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1000000000;
+}
+
+.logo_of_web {
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 76px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url('/t-1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2px;
+    border-radius: 50%;
+    /* padding-left: 30px; */
+}
+
+span {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* background-color: #06ae00; */
+    color: rgb(255, 171, 2);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 25px;
+}
+
+.li_class {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.Second_navbar {
+    background: linear-gradient(45deg, green, rgb(14, 56, 0), rgb(43, 135, 0));
+    position: relative;
+top: 70px;
+
+}
+
+.Second_navbar h1 {
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 25vw;
+    font-weight: 800;
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+}
+
+.Second_navbar h1 span:nth-child(1) {
+    color: #3c00ff;
+    margin: 5px;
+}
+
+.Second_navbar h1 span:nth-child(2) {
+    color: #ff42c6;
+    margin: 5px;
+    padding: 26px;
+    position: relative;
+    top: -10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.Second_navbar h1 span:nth-child(3) {
+    color: #ff1900;
+}
+
+.image_div {
+    background-image: url('https://vanviharnationalpark.org/public/assets/images/banner/slider-img-1.webp');
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.image_div-1 {
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1537616930345-1d330ad3e0a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdpZ2h0JTIwdGlnZXJ8ZW58MHx8MHx8fDA%3D');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#home {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.image_div-1 h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    word-spacing: 2px;
+
+}
+
+.image_div-1 p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    text-align: justify;
+}
+
+
+.map_div {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: black;
+}
+
+.map_div iframe {
+    width: 50%;
+    height: 600px;
+    border: 0;
+}
+
+.detailed_map {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.detailed_map p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.detailed_map .image_map_tiger {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid rebeccapurple;
+}
+
+.image_map_tiger img {
+    width: 100%;
+    height: 480px;
+}
+
+
+
+
+.animals_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.detais_animal {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.detais_animal img {
+    width: 300px;
+    height: 500px;
+    ;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image_detailed {
+    flex: 1;
+}
+
+.image_detailed h2 {
+    font-size: 1.8rem;
+    color: #ffd500;
+    margin-bottom: 10px;
+}
+
+.image_detailed p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+
+/* online booking */
+.online_book_main_div {
+    width: 100vw;
+    height: 700px;
+    align-items: center;
+    background-image: url('https://vanviharnationalpark.org/public/assets/images/banner/slider-img-2.webp');
+    /* https://vanviharnationalpark.org/public/assets/images/banner/slider-img-1.webp */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    float: 1;
+}
+
+.online_book_main_div p {
+    width: 600px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    padding: 20px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1;
+    color: #000000;
+    background-color: #ffffff71;
+    left: 10px;
+}
+
+
+.formContainer {
+    background-image: url('https://media.istockphoto.com/id/488870098/photo/on-the-top-of-the-world-together.webp?a=1&b=1&s=612x612&w=0&k=20&c=IW3U_ypHaQUM704E5EXJ6Jh2hGwyHRPpoqjgKhy8IpE=');
+    background-size: cover;
+    background-position: center center;
+    width: 550px;
+    height: 400px;
+    padding: 15px;
+    margin-top: 10vh;
+    /* margin-left: 62vw; */
+    box-shadow: -10px -20px 10px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    opacity: 1;
+}
+
+.formInsideDiv {
+    width: 400px;
+    height: 350px;
+    display: grid;
+    background-color: #0000006b;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 55px;
+    top: 0;
+    border-radius: 10px;
+}
+
+label {
+    position: relative;
+    left: 18px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input {
+    width: 20vw;
+    height: 40px;
+    padding: 0px 10px;
+    margin-top: -10px;
+}
+
+
+.dataContainer {
+    position: relative;
+    left: 10px;
+}
+
+.dataContainer i {
+    position: relative;
+    left: -40px;
+}
+
+.dataContainer i,
+input,
+button {
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid rgb(255, 98, 0);
+    border-radius: 10px;
+    background-color: #ffe100e0;
+    color: rgba(60, 0, 132, 0.874);
+    padding: 5px;
+}
+
+
+.dataContainer:hover i,
+.dataContainer:hover input {
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid rgba(220, 0, 37, 0.729);
+    border-radius: 12px;
+    background-color: #ffdd0290;
+    padding: 5px;
+    color: rgb(89, 0, 255);
+}
+
+
+.dataContainer i,
+input::placeholder {
+    color: #f78205;
+}
+
+input:hover::placeholder {
+    color: #6605f7dc;
+}
+
+
+button {
+    width: 280px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+}

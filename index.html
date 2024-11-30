@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+
+     <style>
+        .np-footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section,
+.footer-section1,
+.footer-section2,
+.footer-section3 {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #34495e;
+    transition: background-color 0.3s;
+    background: linear-gradient(45deg,rgb(20, 44, 0),rgb(34, 205, 0),rgb(0, 93, 0),black);
+
+}
+
+.footer-section:hover,
+.footer-section1:hover,
+.footer-section2:hover,
+.footer-section3:hover {
+    /* background: linear-gradient(45deg,rgb(20, 44, 0),rgb(0, 17, 255),rgb(157, 10, 64),black); */
+    background-image: url('https://plus.unsplash.com/premium_photo-1661895001905-d793f6f38943?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lnaHQlMjB0aWdlcnxlbnwwfHwwfHx8MA%3D%3D');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 3s;
+    color: #000000;
+    border-radius: 20px;
+}
+
+.footer-section h3,
+.footer-section1 h3,
+.footer-section2 h3,
+.footer-section3 h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #ecf0f1;
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 20px;
+    background: linear-gradient(45deg,red,Blue,green,black);
+}
+
+.footer-section p,
+.footer-section1 ul,
+.footer-section2 ul,
+.footer-section3 p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.footer-section1 ul,
+.footer-section2 ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid; 
+    line-height: 1;
+}
+
+.footer-section1 li,
+.footer-section2 li {
+    margin-right: 15px; 
+}
+
+.footer-section a,
+.footer-section1 a,
+.footer-section2 a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover,
+.footer-section1 a:hover,
+.footer-section2 a:hover {
+    color: #ffaa00;
+    text-decoration: underline;
+}
+
+.footer-section3 p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    padding-top: 15px;
+    border-top: 1px solid #ecf0f1;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section,
+    .footer-section1,
+    .footer-section2,
+    .footer-section3 {
+        text-align: center;
+    }
+}
+
+     </style>
+
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo_of_web">
+            <div class="logo">Green</div><span>Worls</span>
+        </div>
+
+        <ul>
+            <li class="li_class"><a href="#home">Home</a></li>
+            <li class="li_class"><a href="#map">Map</a></li>
+            <li class="li_class"><a href="#animal">Animals</a></li>
+            <li class="li_class"><a href="#online_booking">Online Booking</a></li>
+            <li class="li_class"><a href="#">Contect Gider</a></li>
+            <li class="li_class"><a href="#">Help</a></li>
+        </ul>
+    </nav>
+
+    <nav class="Second_navbar">
+        <h1><span>Welcome To</span> <span>Wight Tiger Reserve </span> <span>In Rewa</span></h1>
+    </nav>
+    <div class="image_div"></div>
+
+    <container>
+        <!-- Home Ke Liye -->
+        <div class="image_div-1" id="home">Home
+            <h3>We Welcome To you In Tiger Reserve in The Largest Park Of Madhya Pradesh In india
+            </h3>
+            <p>Rewa’s White Tiger Reserve is a sanctuary dedicated to preserving the legacy of
+                India's rare white tigers. Known as the birthplace of the first white tiger, Mohan,
+                Rewa holds a unique place in wildlife conservation. The reserve offers a natural
+                habitat where visitors can learn about the importance of protecting these majestic
+                creatures. A visit to Rewa's White Tiger Reserve is an opportunity to witness the
+                beauty and history of India's wildlife heritage.</p>
+        </div>
+
+
+        <!-- Map Ke Liye -->
+        <div class="map_div" id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d929958.6988891633!2d80.30562487574308!3d24.42818350000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39844363a177f035%3A0x415983b0f8ab0fc3!2sWhite%20Tiger%20Safari%2C%20Mukundpur%20..!5e0!3m2!1sen!2sin!4v1729837083583!5m2!1sen!2sin"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="detailed_map">
+                <p>The Rewa White Tiger Reserve in Madhya Pradesh, India, holds a unique place in
+                    the conservation and historical legacy of the rare white tiger. This reserve,
+                    known as the birthplace of Mohan, the first white tiger spotted in the wild, was
+                    established to honor and protect these majestic animals. White tigers, although
+                    not a separate species but a variant of the Bengal tiger, are extraordinarily
+                    rare, and Rewa has been pivotal in their conservation.</p>
+                <div class="image_map_tiger"><img src="https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2lnaHQlMjB0aWdlcnxlbnwwfHwwfHx8MA%3D%3D" alt=""></div>
+            </div>
+
+        </div>
+
+        <!-- Animals types -->
+        <div class="animals_div" id="animal">
+            <div class="detais_animal">
+                <img src="https://images.unsplash.com/photo-1670421291781-4d54641ded9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2lnaHQlMjB0aWdlcnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                <div class="image_detailed">
+                    <h2>Wight Tiger</h2>
+                    <p>The Rewa White Tiger Reserve in Madhya Pradesh, India, holds a unique place
+                        in
+                        the conservation and historical legacy of the rare white tiger. This
+                        reserve,
+                        known as the birthplace of Mohan, the first white tiger spotted in the wild,
+                        was
+                        established to honor and protect these majestic animals. White tigers,
+                        although
+                        not a separate species but a variant of the Bengal tiger, are
+                        extraordinarily
+                        rare, and Rewa has been pivotal in their conservation.</p>
+                </div>
+            </div>
+
+            <div class="detais_animal">
+                <img src="https://images.unsplash.com/photo-1484406566174-9da000fda645?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGVlcnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                <div class="image_detailed">
+                    <h2>Deer</h2>
+                    <p>The Rewa White Tiger Reserve in Madhya Pradesh, India, holds a unique place
+                        in
+                        the conservation and historical legacy of the rare white tiger. This
+                        reserve,
+                        known as the birthplace of Mohan, the first white tiger spotted in the wild,
+                        was
+                        established to honor and protect these majestic animals. White tigers,
+                        although
+                        not a separate species but a variant of the Bengal tiger, are
+                        extraordinarily
+                        rare, and Rewa has been pivotal in their conservation.</p>
+                </div>
+            </div>
+
+            <div class="detais_animal">
+                <img src="https://plus.unsplash.com/premium_photo-1664298010187-091137b9e296?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmVhcnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                <div class="image_detailed">
+                    <h2>Beer</h2>
+                    <p>Bear is a large and strong animal, which can move very well on the ground and
+                        on the mountain. They are mainly found in jungle and hilly areas, and their
+                        food is varied – fruits, honey, meat and sometimes even rice are their
+                        favourites. Bears have a very strong sense of smell, which allows them to
+                        sense threats and prey from close range. They can survive in cold weather
+                        with their thick fur and some species even go into hibernation in winter.
+                    </p>
+                </div>
+            </div>
+
+            <div class="detais_animal">
+                <img src="https://images.unsplash.com/photo-1476922027627-aa7293e3aaa8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVlcnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                <div class="image_detailed">
+                    <h2>Deer</h2>
+                    <p>The Rewa White Tiger Reserve in Madhya Pradesh, India, holds a unique place
+                        in
+                        the conservation and historical legacy of the rare white tiger. This
+                        reserve,
+                        known as the birthplace of Mohan, the first white tiger spotted in the wild,
+                        was
+                        established to honor and protect these majestic animals. White tigers,
+                        although
+                        not a separate species but a variant of the Bengal tiger, are
+                        extraordinarily
+                        rare, and Rewa has been pivotal in their conservation.</p>
+                </div>
+            </div>
+
+            <div class="detais_animal">
+                <img src="https://media.istockphoto.com/id/1204084882/photo/golden-jackal.webp?a=1&b=1&s=612x612&w=0&k=20&c=ti3hDGK5my_iafSXd3ciRpIp7waViByqmUKRRY7Tduo=" alt="">
+                <div class="image_detailed">
+                    <h2>Jeckal</h2>
+                    <p>Jeckal is a large and strong animal, which can move very well on the ground
+                        and
+                        on the mountain. They are mainly found in jungle and hilly areas, and their
+                        food is varied – fruits, honey, meat and sometimes even rice are their
+                        favourites. Bears have a very strong sense of smell, which allows them to
+                        sense threats and prey from close range. They can survive in cold weather
+                        with their thick fur and some species even go into hibernation in winter.
+                    </p>
+                </div>
+            </div>
+
+            <div class="detais_animal">
+                <img src="https://media.istockphoto.com/id/79336602/photo/black-backed-jackal.webp?a=1&b=1&s=612x612&w=0&k=20&c=EwQ2jbexBtYRA6C59hs3amtk-XD7BSdZzk7AZxihL7c=" alt="">
+                <div class="image_detailed">
+                    <h2>Jeckal</h2>
+                    <p>Jeckal is a large and strong animal, which can move very well on the ground
+                        and
+                        on the mountain. They are mainly found in jungle and hilly areas, and their
+                        food is varied – fruits, honey, meat and sometimes even rice are their
+                        favourites. Bears have a very strong sense of smell, which allows them to
+                        sense threats and prey from close range. They can survive in cold weather
+                        with their thick fur and some species even go into hibernation in winter.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Onl;ine Booking -->
+        <div class="online_book_main_div" id="online_booking">
+            <!-- <h1>Book Your Travling Teacket</h1> -->
+            <p>Location: Near the equator, including the Amazon Basin in South America, the Congo
+                Basin in Africa, and Southeast Asia.
+                Climate: Warm and humid with abundant rainfall, typically over 2000 mm per year.
+                Biodiversity: The most biologically diverse forests on Earth, home to countless
+                species, many of which are not yet discovered.
+                Notable Trees and Plants: Mahogany, kapok, rubber trees, and countless medicinal
+                plants.
+                Threats: Deforestation for agriculture (especially palm oil and cattle ranching),
+                logging, and climate chan</p>
+            <div class="formContainer">
+                <form action="Script.js">
+                    <div class="formInsideDiv">
+                        <label for="username"> Name</label>
+                        <div class="dataContainer">
+                            <input type="text" placeholder="Enter name" id="username">
+                            <i class="fas fa-user"></i>
+                        </div>
+
+                        <label for="email">Email</label>
+                        <div class="dataContainer">
+                            <input type="email" placeholder="Enter email" id="email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+
+                        <label for="userpassword"> Password</label>
+                        <div class="dataContainer">
+                            <input type="password" placeholder="Enter password" id="userpassword">
+                            <i class="fas fa-lock"></i>
+                        </div>
+
+                        <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </container>
+
+
+
+    <footer class="np-footer">
+        <div class="footer-content">
+
+            <!-- About Section -->
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Van Vihar is a National Park and Zoo located in Bhopal, known for its serene
+                    forest cover and rich biodiversity.</p>
+                <a href="#">Know More</a>
+            </div>
+
+            <!-- Tourist Info Section -->
+            <div class="footer-section1">
+                <h3>Tourist Info</h3>
+                <ul>
+                    <li><a href="#">Display Map</a></li>
+                    <li><a href="#">Timings & Holidays</a></li>
+                    <li><a href="#">Gate Charges</a></li>
+                    <li><a href="#">Guidelines</a></li>
+                </ul>
+            </div>
+
+            <!-- Useful Links Section -->
+            <div class="footer-section2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">MP Forest Department</a></li>
+                    <li><a href="#">MP Tiger Foundation</a></li>
+                    <li><a href="#">NTCA</a></li>
+                    <li><a href="#">Central Zoo Authority</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info Section -->
+            <div class="footer-section3">
+                <h3>Contact Info</h3>
+                <p>📞 0755 - 2674278</p>
+                <p>✉️ fdvannp.bpl@mp.gov.in</p>
+                <p>📍 Bhadbhada Road, Bhopal – 462003</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Van Vihar National Park & Zoo. All Rights Reserved</p>
+            <p>Developed by - Blue Ocean Tech Solutions Pvt. Ltd.</p>
+            <p>📊 Visitors: 739699</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
